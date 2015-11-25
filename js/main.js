@@ -23,7 +23,7 @@ $('#contact_form').validator().on('submit', function (e) {
 
     var owner = "No";
 
-    if $('#owner').is(':checked'){
+    if ($('#owner').is(':checked')){
       owner = "Yes";
     }
 
