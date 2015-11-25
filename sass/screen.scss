@@ -1,0 +1,167 @@
+/* Welcome to Compass.
+* In this file you should write your main styles. (or centralize your imports)
+* Import this file using the following HTML or equivalent:
+* <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+
+$primary-color: #67ceeb;
+$main-font: 'Raleway', sans-serif;
+$standard-spacing: .5px;
+$standard-line-height: 1.5;
+$header-color: #777;
+$body-color: #777;
+$grey-bg: #f9fbfc;
+$dark-bg: #51415E;
+$grey-line: #ebebeb;
+$section-padding: 160px;
+$btn-transition: 0.2s;
+
+
+
+h1, h2, h3, h4, h5, p, a, ol li,ul li,li{
+	font-family: $main-font;
+	font-weight: 400;
+	line-height: $standard-line-height;
+	color: $header-color;
+}
+
+p, ol li, h3,input, textarea, label{
+	color: $body-color;
+	font-size: 17px;
+	letter-spacing: $standard-spacing;
+}
+
+a, a:hover{
+	color: $primary-color;
+	font-weight: 400;
+
+}
+
+.btn, .btn:hover, .btn:focus{
+	color: #fff;
+	border-radius: 4px;
+	padding: 16px 50px;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: $standard-spacing;
+	box-shadow: none;
+	background: $primary-color;
+}
+
+
+form{
+	margin-top: 40px;
+}
+
+input, textarea{
+	width: 100%;
+	padding: 22px 0;
+	border:1px #ddd solid;
+	border-radius: 4px;
+	padding-left: 20px;
+	margin-top: 20px;
+	letter-spacing: 1.2px;
+	font-size: 16px;
+	font-family: $main-font;
+}
+
+
+textarea{
+	height: 150px;
+	padding: 20px;
+	resize: none;
+	font-family: $main-font;
+}
+
+
+html input[type="button"], input[type="reset"], input[type="submit"], html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, html input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus{
+	color: #fff;
+	border: none;
+	background-color: $primary-color;
+	padding: 22px 0;
+	font-weight: 500;
+	font-size: 16px;
+	margin-top: 40px;
+	border-radius: 4px;
+	font-family: $main-font;
+}
+
+
+.intro{
+	
+	background: url(../img/bg-2.jpg);
+	background-size: cover; 
+	background-position: center; 
+	text-align: center;
+	.logo{
+		position: absolute;
+		width: 100%;
+		padding-top: 40px;
+		color: #fff;
+		font-size: 22px;
+	}
+	.intro-inner{
+		padding: 200px 0;
+		h1{
+			font-size: 68px;
+
+		}
+		p{
+			font-size: 28px;
+			margin-bottom: 60px;
+			
+		}
+		h1, p{
+			color: #fff;
+			letter-spacing: 2px;
+		}
+		
+	}
+}
+
+.form-section{
+	padding: $section-padding 0;
+	p{
+		font-size: 20px;
+		letter-spacing: 1.2px;
+		text-align: center;
+	}
+	.checkbox {
+		input[type=checkbox]{
+			margin-left: -30px;
+		}
+		label{
+			padding-left: 30px;
+			margin-top: 20px;
+			font-size: 16px;
+		}
+	}
+
+
+}
+
+
+
+
+
+@media (max-width: 992px){
+	
+}
+
+@media (max-width: 768px){
+	.intro{
+		background-position: 70% 0;
+		.intro-inner{
+			h1{
+				font-size:48px;
+			}
+			p{
+				font-size: 20px;
+			}
+		}
+	}
+	.form-section{
+		padding: 100px 0;
+	}
+}
+

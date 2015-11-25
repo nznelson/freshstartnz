@@ -1,0 +1,150 @@
+/* Welcome to Compass.
+* In this file you should write your main styles. (or centralize your imports)
+* Import this file using the following HTML or equivalent:
+* <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 21, ../sass/screen.scss */
+h1, h2, h3, h4, h5, p, a, ol li, ul li, li {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #777;
+}
+
+/* line 28, ../sass/screen.scss */
+p, ol li, h3, input, textarea, label {
+  color: #777;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+}
+
+/* line 34, ../sass/screen.scss */
+a, a:hover {
+  color: #67ceeb;
+  font-weight: 400;
+}
+
+/* line 40, ../sass/screen.scss */
+.btn, .btn:hover, .btn:focus {
+  color: #fff;
+  border-radius: 4px;
+  padding: 16px 50px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  box-shadow: none;
+  background: #67ceeb;
+}
+
+/* line 52, ../sass/screen.scss */
+form {
+  margin-top: 40px;
+}
+
+/* line 56, ../sass/screen.scss */
+input, textarea {
+  width: 100%;
+  padding: 22px 0;
+  border: 1px #ddd solid;
+  border-radius: 4px;
+  padding-left: 20px;
+  margin-top: 20px;
+  letter-spacing: 1.2px;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+}
+
+/* line 69, ../sass/screen.scss */
+textarea {
+  height: 150px;
+  padding: 20px;
+  resize: none;
+  font-family: "Raleway", sans-serif;
+}
+
+/* line 77, ../sass/screen.scss */
+html input[type="button"], input[type="reset"], input[type="submit"], html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, html input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus {
+  color: #fff;
+  border: none;
+  background-color: #67ceeb;
+  padding: 22px 0;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 40px;
+  border-radius: 4px;
+  font-family: "Raleway", sans-serif;
+}
+
+/* line 90, ../sass/screen.scss */
+.intro {
+  background: url(../img/bg-2.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+/* line 96, ../sass/screen.scss */
+.intro .logo {
+  position: absolute;
+  width: 100%;
+  padding-top: 40px;
+  color: #fff;
+  font-size: 22px;
+}
+/* line 103, ../sass/screen.scss */
+.intro .intro-inner {
+  padding: 200px 0;
+}
+/* line 105, ../sass/screen.scss */
+.intro .intro-inner h1 {
+  font-size: 68px;
+}
+/* line 109, ../sass/screen.scss */
+.intro .intro-inner p {
+  font-size: 28px;
+  margin-bottom: 60px;
+}
+/* line 114, ../sass/screen.scss */
+.intro .intro-inner h1, .intro .intro-inner p {
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+/* line 122, ../sass/screen.scss */
+.form-section {
+  padding: 160px 0;
+}
+/* line 124, ../sass/screen.scss */
+.form-section p {
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+/* line 130, ../sass/screen.scss */
+.form-section .checkbox input[type=checkbox] {
+  margin-left: -30px;
+}
+/* line 133, ../sass/screen.scss */
+.form-section .checkbox label {
+  padding-left: 30px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  /* line 152, ../sass/screen.scss */
+  .intro {
+    background-position: 70% 0;
+  }
+  /* line 155, ../sass/screen.scss */
+  .intro .intro-inner h1 {
+    font-size: 48px;
+  }
+  /* line 158, ../sass/screen.scss */
+  .intro .intro-inner p {
+    font-size: 20px;
+  }
+
+  /* line 163, ../sass/screen.scss */
+  .form-section {
+    padding: 100px 0;
+  }
+}
