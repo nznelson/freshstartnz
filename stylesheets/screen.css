@@ -2,7 +2,7 @@
 * In this file you should write your main styles. (or centralize your imports)
 * Import this file using the following HTML or equivalent:
 * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 21, ../sass/screen.scss */
+/* line 22, ../sass/screen.scss */
 h1, h2, h3, h4, h5, p, a, ol li, ul li, li {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -10,20 +10,20 @@ h1, h2, h3, h4, h5, p, a, ol li, ul li, li {
   color: #777;
 }
 
-/* line 28, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 p, ol li, h3, input, textarea, label {
   color: #777;
   font-size: 17px;
   letter-spacing: 0.5px;
 }
 
-/* line 34, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 a, a:hover {
   color: #67ceeb;
   font-weight: 400;
 }
 
-/* line 40, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 .btn, .btn:hover, .btn:focus {
   color: #fff;
   border-radius: 4px;
@@ -33,14 +33,27 @@ a, a:hover {
   letter-spacing: 0.5px;
   box-shadow: none;
   background: #67ceeb;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
-/* line 52, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
+.btn:hover {
+  background: #5ed6f8;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+/* line 65, ../sass/screen.scss */
 form {
   margin-top: 40px;
 }
 
-/* line 56, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 input, textarea {
   width: 100%;
   padding: 22px 0;
@@ -53,7 +66,7 @@ input, textarea {
   font-family: "Raleway", sans-serif;
 }
 
-/* line 69, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 textarea {
   height: 150px;
   padding: 20px;
@@ -61,7 +74,7 @@ textarea {
   font-family: "Raleway", sans-serif;
 }
 
-/* line 77, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 html input[type="button"], input[type="reset"], input[type="submit"], html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, html input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus {
   color: #fff;
   border: none;
@@ -72,16 +85,29 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
   margin-top: 40px;
   border-radius: 4px;
   font-family: "Raleway", sans-serif;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
-/* line 90, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
+html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, html input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus {
+  background: #5ed6f8;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+/* line 114, ../sass/screen.scss */
 .intro {
-  background: url(../img/bg-2.jpg);
+  background: url(../img/bg-1.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
 }
-/* line 96, ../sass/screen.scss */
+/* line 120, ../sass/screen.scss */
 .intro .logo {
   position: absolute;
   width: 100%;
@@ -89,40 +115,40 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
   color: #fff;
   font-size: 22px;
 }
-/* line 103, ../sass/screen.scss */
+/* line 127, ../sass/screen.scss */
 .intro .intro-inner {
   padding: 200px 0;
 }
-/* line 105, ../sass/screen.scss */
+/* line 129, ../sass/screen.scss */
 .intro .intro-inner h1 {
   font-size: 68px;
 }
-/* line 109, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 .intro .intro-inner p {
   font-size: 28px;
   margin-bottom: 60px;
 }
-/* line 114, ../sass/screen.scss */
+/* line 138, ../sass/screen.scss */
 .intro .intro-inner h1, .intro .intro-inner p {
   color: #fff;
   letter-spacing: 2px;
 }
 
-/* line 122, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 .form-section {
   padding: 160px 0;
 }
-/* line 124, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 .form-section p {
   font-size: 20px;
   letter-spacing: 1.2px;
   text-align: center;
 }
-/* line 130, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 .form-section .checkbox input[type=checkbox] {
   margin-left: -30px;
 }
-/* line 133, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 .form-section .checkbox label {
   padding-left: 30px;
   margin-top: 20px;
@@ -130,20 +156,20 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 }
 
 @media (max-width: 768px) {
-  /* line 152, ../sass/screen.scss */
+  /* line 176, ../sass/screen.scss */
   .intro {
     background-position: 70% 0;
   }
-  /* line 155, ../sass/screen.scss */
+  /* line 179, ../sass/screen.scss */
   .intro .intro-inner h1 {
     font-size: 48px;
   }
-  /* line 158, ../sass/screen.scss */
+  /* line 182, ../sass/screen.scss */
   .intro .intro-inner p {
     font-size: 20px;
   }
 
-  /* line 163, ../sass/screen.scss */
+  /* line 187, ../sass/screen.scss */
   .form-section {
     padding: 100px 0;
   }

@@ -5,6 +5,7 @@
 
 
 $primary-color: #67ceeb;
+$primary-color-dark: #5ed6f8;
 $main-font: 'Raleway', sans-serif;
 $standard-spacing: .5px;
 $standard-line-height: 1.5;
@@ -46,6 +47,18 @@ a, a:hover{
 	letter-spacing: $standard-spacing;
 	box-shadow: none;
 	background: $primary-color;
+	-webkit-transition: all $btn-transition ease;
+		-moz-transition: all $btn-transition ease;
+		-o-transition: all $btn-transition ease;
+		transition: all $btn-transition ease;
+}
+
+.btn:hover{
+	background:$primary-color-dark;
+	-webkit-transition: all $btn-transition ease;
+		-moz-transition: all $btn-transition ease;
+		-o-transition: all $btn-transition ease;
+		transition: all $btn-transition ease;
 }
 
 
@@ -84,12 +97,23 @@ html input[type="button"], input[type="reset"], input[type="submit"], html input
 	margin-top: 40px;
 	border-radius: 4px;
 	font-family: $main-font;
+	-webkit-transition: all $btn-transition ease;
+		-moz-transition: all $btn-transition ease;
+		-o-transition: all $btn-transition ease;
+		transition: all $btn-transition ease;
 }
+html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, html input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus{
+	background: $primary-color-dark;
+	-webkit-transition: all $btn-transition ease;
+		-moz-transition: all $btn-transition ease;
+		-o-transition: all $btn-transition ease;
+		transition: all $btn-transition ease;
+	}
 
 
 .intro{
 	
-	background: url(../img/bg-2.jpg);
+	background: url(../img/bg-1.jpg);
 	background-size: cover; 
 	background-position: center; 
 	text-align: center;
