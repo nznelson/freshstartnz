@@ -236,11 +236,11 @@ html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]
 
   /* line 257, ../sass/screen.scss */
   .intro .intro-inner h1 {
-    font-size: 48px;
+    font-size: 40px;
   }
   /* line 260, ../sass/screen.scss */
   .intro .intro-inner p {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   /* line 265, ../sass/screen.scss */
