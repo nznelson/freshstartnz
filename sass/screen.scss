@@ -11,9 +11,6 @@ $standard-spacing: .5px;
 $standard-line-height: 1.5;
 $header-color: #777;
 $body-color: #777;
-$grey-bg: #f9fbfc;
-$dark-bg: #51415E;
-$grey-line: #ebebeb;
 $section-padding: 160px;
 $btn-transition: 0.2s;
 
@@ -62,9 +59,7 @@ a, a:hover{
 }
 
 
-form{
-	margin-top: 40px;
-}
+
 
 input, textarea{
 	width: 100%;
@@ -181,9 +176,13 @@ html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]
 .form-section{
 	padding: $section-padding 0;
 	p{
-		font-size: 20px;
+		font-size: 18px;
 		letter-spacing: 1.2px;
 		text-align: center;
+		padding-bottom: 20px;
+	}
+	form{
+		margin-top: 80px;
 	}
 	.checkbox {
 		input[type=checkbox]{
