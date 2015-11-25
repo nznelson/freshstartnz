@@ -205,6 +205,12 @@ html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]
 			font-size: 16px;
 		}
 	}
+	.thanks{
+		color: $primary-color-dark;
+		font-size: 24px;
+		margin-top: 40px;
+		display: none;
+	}
 
 
 }

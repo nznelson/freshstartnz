@@ -204,13 +204,20 @@ html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]
   margin-top: 20px;
   font-size: 16px;
 }
+/* line 208, ../sass/screen.scss */
+.form-section .thanks {
+  color: #5ed6f8;
+  font-size: 24px;
+  margin-top: 40px;
+  display: none;
+}
 
-/* line 212, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 .footer {
   padding: 80px 0;
   background: #2f3744;
 }
-/* line 215, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
 .footer p {
   color: #fff;
   opacity: .8;
@@ -218,25 +225,25 @@ html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]
 }
 
 @media (max-width: 768px) {
-  /* line 234, ../sass/screen.scss */
+  /* line 240, ../sass/screen.scss */
   .carousel .carousel-inner .item .bg1 {
     background-position: 60% 0;
   }
-  /* line 237, ../sass/screen.scss */
+  /* line 243, ../sass/screen.scss */
   .carousel .carousel-inner .item .bg2 {
     background-position: 80% 0;
   }
 
-  /* line 251, ../sass/screen.scss */
+  /* line 257, ../sass/screen.scss */
   .intro .intro-inner h1 {
     font-size: 48px;
   }
-  /* line 254, ../sass/screen.scss */
+  /* line 260, ../sass/screen.scss */
   .intro .intro-inner p {
     font-size: 20px;
   }
 
-  /* line 259, ../sass/screen.scss */
+  /* line 265, ../sass/screen.scss */
   .form-section {
     padding: 100px 0;
   }
