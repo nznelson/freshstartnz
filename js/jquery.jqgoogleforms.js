@@ -67,6 +67,7 @@
                             // }
                             $('#contact_form').css("display", "none");
                             $('#thanks').css("display", "block");
+                            fbq('track', 'CompleteRegistration');
                         },
                         200: function() {
                             //Success Message
