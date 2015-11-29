@@ -162,10 +162,12 @@ input[type="submit"]:hover, input[type="submit"]:focus{
 	.btn-container{
 		height:100%;
 		.btn{
-			bottom: 35%;
+			
 		    position: absolute;
 		    left: 50%;
-		    transform: translateX(-50%);
+		    top: 50%;
+		    margin-top: 100px;
+		    transform: translate(-50%);
 		}
 	}
 	.intro-inner{
@@ -181,8 +183,8 @@ input[type="submit"]:hover, input[type="submit"]:focus{
 
 		}
 		p{
-			font-size: 26px;
-			margin-bottom: 60px;
+			font-size: 24px;
+			
 
 			
 		}
