@@ -9,7 +9,7 @@ body {
 }
 
 /* line 23, ../sass/screen.scss */
-h1, h2, h3, h4, h5, p, a, ol li, ul li, li {
+h1, h2, h3, h4, h5, p, a, ol li, ul li, li, label {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   line-height: 1.5;
