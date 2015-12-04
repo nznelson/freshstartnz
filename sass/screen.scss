@@ -12,7 +12,7 @@ $standard-spacing: .5px;
 $standard-line-height: 1.5;
 $header-color: #777;
 $body-color: #777;
-$section-padding: 140px;
+$section-padding: 80px;
 $btn-transition: 0.2s;
 
 body{
@@ -206,7 +206,7 @@ input[type="submit"]:hover, input[type="submit"]:focus{
 		padding-bottom: 20px;
 	}
 	form{
-		margin-top: 60px;
+		margin-top: 40px;
 	}
 	.checkbox {
 		input[type=checkbox]{
